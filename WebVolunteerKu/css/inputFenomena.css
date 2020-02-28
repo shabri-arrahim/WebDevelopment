@@ -1,0 +1,123 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/registercover.jpg);
+
+}
+
+.container {
+    background-color: white;
+    font: 16px/28px arial, sans-serif;
+    width: 80%;
+    margin: 0px auto;
+    /* margin-top: ; */
+    border: 1px solid white;
+}
+
+.logo{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.page-heading{
+    margin-left: 50px;
+}
+
+.judul {
+    text-align: center;
+    /* margin-top: 10%; */
+}
+
+.judul .form-control{
+    text-align: center;
+    width: 90%;
+}
+
+.content_1 {
+    margin-left: 5%;
+}
+
+.content_2 {
+    float: right;
+    margin-left: 50%;
+    margin-top: -40%;
+}
+
+.navigasi{
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 10%;
+}
+
+.form-control{
+    margin-top: 30px;
+    margin-right: 10px;
+    font: 13px arial, sans-serif;
+    padding: 10px 10px 10px 10px;
+    background: #f1f1f1;
+    border : none;
+}
+
+.tos{
+    margin-top: 20px;
+    width: 60%;
+    color: red;
+    font-size: 15px;
+}
+
+
+.deskripsi{
+    height: 200px;
+    width: 40.5%;
+}
+
+.deskripsi textarea{
+    width: 100%;
+    height: 100%;
+}
+
+.kebutuhan{
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+
+.kabupatenkotaprofince #prov{
+    padding-right: 45px;
+}
+
+.kategori label{
+    padding-right: 20px;
+}
+
+.start_date label{
+    padding-right: 58px;
+
+}
+
+.end_date label{
+    padding-right: 10px;
+}
+
+.button{
+    font-size: 20px;
+    padding: 13px 13px;
+    width: 200px;
+    border: 2px solid #a3004d;
+    background-color: #a3004d;
+    color: #fafafa;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.button:hover{
+    background-color: rgb(136, 2, 65);
+    color: #fafafa;
+}
+
+input[type=text]:focus, textarea[type= text]:focus {
+    background-color: #ddd;
+    outline:none;
+
+}

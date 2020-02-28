@@ -1,0 +1,23 @@
+
+.head{
+    background-color: none;
+    float: right;
+    right: 0;
+    top: 0;
+    padding-top: 0%;
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+.dropdown_menu li{
+    list-style: none;
+    list-style-position: inherit;
+}
+
+.user-info-pull-right:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    padding-right: 40%;
+}

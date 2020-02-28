@@ -1,0 +1,114 @@
+/*Style*/
+
+.container img{
+    position: relative;
+    top: 15px;
+    left: 200px;
+    margin: auto;
+;
+}
+
+h2{
+    position: relative;
+    left: 15px;
+    bottom: -10px;
+}
+/* 
+.image{
+    position: absolute;
+    width: 30px;
+    right: 300px;
+} */
+
+.col-sm-6{
+    left: 500px;
+}
+
+.page-content img{
+    position: relative;
+    width: 325px;
+    left: 50px;
+    top: 70px;
+}
+
+.button1{
+    position: relative;
+    padding: 13px 13px;
+    width: 200px;
+    /*height: 30px; */
+    left: 235px;
+    top: 2px;
+    border: 2px solid #A3004D; /*set warna border pada tombol*/
+    background-color: #A3004D; /*set warna backround pada tombol*/
+    color: #fafafa; /*set warna huruf pada tombol*/
+    font-weight: bold;
+}
+
+.button1:hover{
+    background-color: rgb(136, 2, 65);
+    color: rgb(218, 214, 214);
+}
+
+.button2{
+    padding: 13px 13px;
+    width: 130px;
+    /*height: 30px; */
+    left: 190px;
+    top: 23px;
+    background-color: transparent; /*set warna backround pada tombol*/
+    color:  #A3004D; /*set warna huruf pada tombol*/
+    font-weight: bold;
+    border: none;
+}
+
+.button2:hover{
+    background-color: rgb(255, 225, 238);
+    color:  #A3004D;
+}
+
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-control :focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-image: url(../img/registercover.jpg);
+    color: #333;    
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    /* box-shadow: 1px 1px 1px 1px #fafafacc; */
+    background-color: #fff;
+}
+
+.container .page-content{
+    padding: 16px 45px 16px 16px;
+}
